@@ -1,0 +1,261 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1380px;
+  }
+}
+body, html {
+  font-family: "Roboto", sans-serif;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.index .banner .content {
+  height: 310px;
+  border-bottom: 5px solid #f26f14;
+}
+.index .banner .left {
+  background: linear-gradient(90deg, #155175 0%, #001222 100%);
+}
+.index .banner .presentation {
+  color: #fff;
+  padding-left: 50px;
+}
+.index .banner .presentation .title {
+  margin-bottom: 20px;
+}
+.index .banner .presentation .title img {
+  padding-right: 20px;
+  margin-right: 20px;
+  border-right: 1px solid #fff;
+}
+.index .banner .presentation .title h1 {
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0;
+}
+.index .banner .presentation .text {
+  font-size: 19px;
+  font-weight: 300;
+}
+.index .banner .presentation .footer .currency {
+  font-size: 16px;
+  padding-top: 15px;
+}
+.index .banner .presentation .footer .price {
+  font-size: 37px;
+}
+.index .banner .presentation .footer .btn {
+  background: linear-gradient(90deg, #ff8e49 0%, #f0690a 100%);
+  color: #fff;
+  margin-left: 20px;
+}
+.index .banner .background {
+  background-position: right;
+  background-repeat: no-repeat;
+  background: url("img/banner1.jpg");
+}
+.index .categories .card {
+  color: #696969;
+  background-color: #f9f9f9;
+  width: 135px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+.index .categories .card .card-icon {
+  font-size: 28px;
+}
+.index .categories .card .card-title {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+.index .categories .card .card-body {
+  padding: 15px 0;
+}
+.index .categories .card:hover, .index .categories .card.active {
+  background-color: #f26f14;
+  border-color: #f26f14;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 0.25rem;
+}
+.index .categories .card:hover h5, .index .categories .card.active h5 {
+  color: #fff;
+}
+.index .products .card {
+  transition: 0.5s;
+  width: 300px;
+  margin: 30px 10px;
+  border: 0;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 767px) {
+  .index .products .card {
+    width: 100%;
+  }
+}
+.index .products .card .card-title {
+  color: #444;
+  font-weight: 400;
+}
+.index .products .card .card-icon {
+  color: #f26f14;
+  font-size: 30px;
+}
+.index .products .card .card-text {
+  color: #9e9e9e;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+.index .products .card .card-footer, .index .products .card .modal-header {
+  background: linear-gradient(90deg, #ff8e49 0%, #f0690a 100%);
+}
+.index .products .card .card-footer span, .index .products .card .card-footer a, .index .products .card .card-footer h5, .index .products .card .modal-header span, .index .products .card .modal-header a, .index .products .card .modal-header h5 {
+  color: #fff;
+}
+.index .products .card .card-footer .price, .index .products .card .modal-header .price {
+  font-size: 22px;
+}
+.index .products .card .card-footer a, .index .products .card .modal-header a {
+  font-size: 18px;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  .index .banner .container, .index .banner .row {
+    padding: 0;
+  }
+  .index .banner .content .presentation {
+    padding: 0 10px;
+  }
+  .index .banner .content .left {
+    padding: 0;
+  }
+  .index .banner .content .left img {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+}
+
+.detalhes .banner .content {
+  height: 310px;
+  border-bottom: 5px solid #f26f14;
+}
+.detalhes .banner .left {
+  background: linear-gradient(90deg, #d7d7d7 0%, white 100%);
+}
+.detalhes .banner .presentation {
+  color: #000;
+  padding-left: 50px;
+}
+.detalhes .banner .presentation .title {
+  margin-bottom: 20px;
+}
+.detalhes .banner .presentation .title img {
+  padding-right: 20px;
+  margin-right: 20px;
+  border-right: 1px solid #000;
+}
+.detalhes .banner .presentation .title h1 {
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0;
+}
+.detalhes .banner .presentation .text {
+  font-size: 19px;
+  font-weight: 300;
+}
+.detalhes .banner .presentation .footer .currency {
+  font-size: 16px;
+  padding-top: 15px;
+}
+.detalhes .banner .presentation .footer .price {
+  font-size: 37px;
+}
+.detalhes .banner .presentation .footer .btn {
+  background: linear-gradient(90deg, #ff8e49 0%, #f0690a 100%);
+  color: #fff;
+  margin-left: 20px;
+}
+.detalhes .banner .background {
+  background-position: right;
+  background-repeat: no-repeat;
+  background: url("img/banner2.jpg");
+}
+.detalhes main .content {
+  padding: 0 80px;
+  position: relative;
+}
+.detalhes main .content .carousel {
+  margin-bottom: 30px;
+}
+.detalhes main .content .carousel .item {
+  padding: 0 20px;
+}
+.detalhes main .content .carousel .item p {
+  font-size: 14px;
+  color: #f26f14;
+  padding: 0 40px;
+}
+@media (max-width: 767px) {
+  .detalhes main .content .carousel .item p {
+    padding: 0;
+  }
+}
+.detalhes main .content .carousel .slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: #696969;
+  cursor: pointer;
+}
+.detalhes main .content .carousel .slick-arrow.prev {
+  left: -50px;
+}
+.detalhes main .content .carousel .slick-arrow.next {
+  right: -50px;
+}
+.detalhes main .content p {
+  color: #696969;
+  margin-bottom: 25px;
+}
+.detalhes main .text {
+  padding: 0 80px;
+}
+@media (max-width: 767px) {
+  .detalhes main .text {
+    padding: 0;
+  }
+}
+.detalhes main .text .footer .currency {
+  font-size: 16px;
+  padding-top: 15px;
+}
+.detalhes main .text .footer .price {
+  font-size: 37px;
+}
+.detalhes main .text .footer .btn {
+  background: linear-gradient(90deg, #ff8e49 0%, #f0690a 100%);
+  color: #fff;
+  margin-left: 20px;
+}
+@media (max-width: 767px) {
+  .detalhes .banner .container, .detalhes .banner .row {
+    padding: 0;
+  }
+  .detalhes .banner .content .presentation {
+    padding: 0 10px;
+  }
+  .detalhes .banner .content .left {
+    padding: 0;
+  }
+  .detalhes .banner .content .left img {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+}

@@ -1,0 +1,154 @@
+.detalhes {
+    .banner {
+        .content {
+            height: 310px;
+            border-bottom: 5px solid $default-color;
+        }
+        
+        .left {
+            background: linear-gradient(90deg, rgba(215,215,215,1) 0%, rgba(255,255,255,1) 100%);
+        }
+        .presentation {
+            color: #000;
+            padding-left: 50px;
+    
+            .title {
+                margin-bottom: 20px;
+    
+                img {
+                    padding-right: 20px;
+                    margin-right: 20px;
+                    border-right: 1px solid #000;
+                }
+                h1 {
+                    font-size: 32px;
+                    font-weight: 400;
+                    margin: 0; 
+                }
+            }
+    
+            .text {
+                font-size: 19px;
+                font-weight: 300;
+            }
+    
+            .footer {
+                .currency {
+                    font-size: 16px;
+                    padding-top: 15px;
+                }
+                .price {
+                    font-size: 37px;
+                }
+    
+                .btn {
+                    background: linear-gradient(90deg, rgba(255,142,73,1) 0%, rgba(240,105,10,1) 100%);
+                    color: #fff;
+                    margin-left: 20px;
+                }
+            }
+        }
+    
+        .background {
+            background-position: right; 
+            background-repeat: no-repeat;
+            background: url('img/banner2.jpg');
+        }
+    }
+    main {
+        .content {
+            padding: 0 80px;
+            position: relative;
+
+            .carousel {
+                margin-bottom: 30px;
+
+                .item {
+                    padding: 0 20px;
+
+                    p {
+                        font-size: 14px;
+                        color: $default-color;
+                        padding: 0 40px;
+
+                        @media(max-width: 767px) {
+                            padding: 0;
+                        }
+                    }
+                }
+
+                .slick-arrow {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    font-size: 30px;
+                    color: #696969;
+                    cursor: pointer;
+
+                    &.prev {
+                        left: -50px;
+                    }
+
+                    &.next {
+                        right: -50px;
+                    }
+                }
+            }
+
+            p {
+                color: #696969;
+                margin-bottom: 25px;
+            }
+
+            
+        }
+        
+        .text {
+            padding: 0 80px;
+
+            @media(max-width: 767px) {
+                padding: 0;
+            }
+            .footer {
+                .currency {
+                    font-size: 16px;
+                    padding-top: 15px;
+                }
+                .price {
+                    font-size: 37px;
+                }
+    
+                .btn {
+                    background: linear-gradient(90deg, rgba(255,142,73,1) 0%, rgba(240,105,10,1) 100%);
+                    color: #fff;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+    
+    
+    @media(max-width: 767px) {
+        .banner {
+            .container, .row {
+                padding: 0;
+            }
+            .content {
+                .presentation {
+                    padding: 0 10px;
+                }
+    
+                .left {
+                    padding: 0;
+    
+                    img {
+                        padding: 0;
+                        margin: 0;
+                        border: 0;
+                    }
+                }
+            }
+        }
+
+    }
+}
